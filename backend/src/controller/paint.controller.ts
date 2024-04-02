@@ -37,7 +37,7 @@ const compareAllPaints = (
 };
 
 router.get(
-  "/compare",
+  "/findEquivalent",
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const hexColor: string = req.query.hexColor as string;
